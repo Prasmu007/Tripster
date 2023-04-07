@@ -1,91 +1,36 @@
-# Tripadvisor - Clone
-Tripadvisor is an American online travel company that operates a website and mobile app with user-generated content and a comparison shopping website. It also offers online hotel reservations and bookings for transportation, lodging, travel experiences, and restaurants.Its headquarters are in Needham, Massachusetts.
-<br>
-The tripadvisor website has been cloned by myself and my team of 4 members as project of our construct week at **Masai School** over 5 days.
+# Tripster
 
-#### Project Code - industrious-steam-9257
+## Objectives
+1. To reduce the hassle in trip planning, we plan on redesigning TripAdvisor in a way where it does most
+of the work for the user.
+2. We take simple user inputs relating to the number of people, budget as well as interests; and provide
+relevant places to match their expectations.
+3. Additionally, we can also add a section that displays reels/posts from Instagram related to the area the
+user plans to visit, including food, tourist spots, etc.
 
-## Technology
-- **Front-end:** HTML, CSS, JavaScript,ReactJs, Redux, ChakraUi.
-- **Back-end:** nodeJs, expressJs, JavaScriptS, MongoDb.
-- **Version control:** Git and GitHub.
-- **Hosting:** Vercel
+## The flaws in the site:
+• There exists a system to monitor and display all the locations relevant to travel, including accommodation, places to
+visit etc, however:
+• No recommendations based on budget.
+• The individual has to research all options for each activity they want or need to do.
 
-## Features
-- Multi-level interaction in the sign-up process for users to know their needs and to provide service accordingly
-- Transitioning accordions in various positions for various purposes.
-- Password strength given by the user is displayed live.
-- Sign-in for users.
-- Search for hotels
-- Make payment
-- Book your trip
-- Admin dashboard
-- Resposive for all type of displays
+## Our proposed improvements:
+On searching by location, the users are asked for a specific set of details, namely:
+• Overall budget
+• Number of people traveling (to filter living accommodations)
+• The time period of the trip
 
-## Snapshots of the project
+### Interests choosing page, similar to the following:
+Given the interests, the overall budget would be divided into the following 3 categories:
+• Places to visit
+• Living
+• Food
 
-1. Landing page and navigation bar
+### Once decided, all options within the price ranges decided above will be shown.
 
-![LandingPage](Frontend/src/Components/Homepage/assests/readme/LandingPage.png)
-*******************************************************************************
+## STEPS TO REPLICATE:
 
-2. Tripadvisor hotels page
-![LandingPage](Frontend/src/Components/Homepage/assests/readme/HotelDetails.png)
-*******************************************************************************
-
-3. POST Hotel Dashboard (Only for admin)
-![LandingPage](Frontend/src/Components/Homepage/assests/readme/PostAdmin.png)
-*******************************************************************************
-
-4. Signup and sign-in pages
-![LandingPage](Frontend/src/Components/Homepage/assests/readme/SignInPage.png)
-*******************************************************************************
-
-5. Payment Page
-![LandingPage](Frontend/src/Components/Homepage/assests/readme/TravellerDetails.png)
-*******************************************************************************
-
-6. Admin Dashboard (Only for admin)
-![LandingPage](Frontend/src/Components/Homepage/assests/readme/Allusersadmin.png)
-*******************************************************************************
-
-7. Footer section
-![LandingPage](Frontend/src/Components/Homepage/assests/readme/Footer.png)
-*******************************************************************************
-
-<!--  
-## Demo
->Link - [TravelGo](https://tripadvisor-rsoni2843.web.app/)
->Project demonstration link- 
-<a href="#">click here</a> -->
-
-## Authors
-
-#### Sushant Kumar
-> Github: [Sushant Kumar](https://github.com/sushantkr961)
-Team lead, daily POC and worked on landing page, about page, navbar, tourism page, hotel details page
-
-#### Nipendra Soni
->Github: [Nipendra Soni](https://github.com/rsoni2843)
-worked on backend, signup, login and cart page
-
-#### Gaurav Kumar
->Github: [Gaurav Kumar](https://github.com/erGaurav13)
-worked on hotel list, admin dashboard
-
-#### Ravi Roshan
->Github: [Ravi Roshan](https://github.com/Ravi98351)
-worked on payment page and user details page
-
-## Run on your Machine
-1. cd Frontend
-2. npm install
-3. npm start
-
-### Login as an admin 
-- email:- sushantonly961@gmail.com
-- password:- 1234
-
-
-
-
+1. git clone https://github.com/Prasmu007/Tripster.git
+2. cd Frontend
+3. npm install
+4. npm start
